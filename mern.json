@@ -80,6 +80,29 @@
           "target-path": "server/models/<%= name %>.js"
         }
       ]
+    },
+    {
+      "name" : "arrow-function-s",
+      "description": "Generates a ES6 functional react component in shared components",
+      "usage": "arrow-function-s [component-name]",
+      "files": [
+        {
+          "blueprint-path":"config/blueprints/arrow-functional-component.ejs",
+          "target-path":"client/components/<%= helpers.capitalize(name) %>.js"
+        }
+      ]
+    },
+    {
+      "name" : "arrow-function-m",
+      "description": "Generates a ES6 functional react component in a module directory",
+      "usage": "arrow-function-m <module-name>/<component-name>",
+      "files": [
+        {
+          "blueprint-path":"config/blueprints/arrow-functional-component.ejs",
+          "parent-path": "client/modules/<%= helpers.capitalize(parent) %>",
+          "target-path": "components/<%= helpers.capitalize(name) %>/<%= helpers.capitalize(name) %>.js"
+        }
+      ]
     }
   ]
 }
