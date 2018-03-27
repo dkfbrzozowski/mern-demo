@@ -4,7 +4,7 @@
   color: #999;
   font-size: 12px;
   background-color: #d4d4d44a;
-  max-width: 150px;
+  max-width: 200px;
   padding: 10px;
   width: fit-content;
   border-radius: 3px;
@@ -14,12 +14,14 @@
 .post-vote-button {
   background-color: #03A9F4;
   color: white;
-  height: 22px;
-  width: 22px;
+  height: 30px;
+  width: 30px;
   border-radius: 3px;
   margin-right: 10px;
   border: none;
   font-size: 20px;
+  outline: none;
+  cursor: pointer;
 }
 
 .post-vote-button:last-child {
