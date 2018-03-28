@@ -2,7 +2,7 @@ export default {
   locale: 'fr',
   messages: {
     siteTitle: 'MERN blog de démarrage',
-    addPost: 'Ajouter Poster',
+    addPost: 'Ajouter un post',
     switchLanguage: 'Changer de langue',
     twitterMessage: 'Nous sommes sur Twitter',
     by: 'Par',
@@ -26,6 +26,9 @@ export default {
   		  =0 {does not have any comments}
   		  =1 {has # comment}
   		  other {has # comments}
-  		} as of {date} (in real app this would be translated to French)`,
+      } as of {date} (in real app this would be translated to French)`,
+    editPost: 'Modifier Poster',
+    backToMain: 'Accueil',
+    votes: 'Votes',
   },
 };
