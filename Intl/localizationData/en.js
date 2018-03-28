@@ -28,7 +28,10 @@ export default {
     	  other {has # comments}
       } as of {date}`,
     editPost: 'Edit Post',
-    backToMain: 'Home',
+    backToMain: 'Posts',
     votes: 'Votes',
+    home: 'Home',
+    posts: 'Posts',
+    about: 'About',
   },
 };
